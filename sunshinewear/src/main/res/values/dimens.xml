@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="digital_text_size">40dp</dimen>
+    <dimen name="digital_text_size_round">45dp</dimen>
+    <dimen name="digital_x_offset">15dp</dimen>
+    <dimen name="digital_x_offset_round">25dp</dimen>
+    <dimen name="digital_y_offset">90dp</dimen>
+    <dimen name="watchface_frame_padding">5dp</dimen>
+    <dimen name="boxinset_layout_padding">15dp</dimen>
+    <dimen name="time_text_size">30sp</dimen>
+    <dimen name="temperature_text_size">20sp</dimen>
+    <dimen name="weather_detail_margin_top">20dp</dimen>
+</resources>
