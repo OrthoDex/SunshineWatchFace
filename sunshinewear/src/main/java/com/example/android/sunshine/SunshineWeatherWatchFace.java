@@ -37,6 +37,7 @@ import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
 import android.util.Log;
 import android.view.Display;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.SurfaceHolder;
 import android.view.View;
@@ -170,6 +171,7 @@ public class SunshineWeatherWatchFace extends CanvasWatchFaceService {
                     .setCardPeekMode(WatchFaceStyle.PEEK_MODE_VARIABLE)
                     .setBackgroundVisibility(WatchFaceStyle.BACKGROUND_VISIBILITY_INTERRUPTIVE)
                     .setShowSystemUiTime(false)
+                    .setHotwordIndicatorGravity(Gravity.CENTER_HORIZONTAL|Gravity.TOP)
                     .build());
 
             Resources resources = SunshineWeatherWatchFace.this.getResources();
@@ -301,7 +303,6 @@ public class SunshineWeatherWatchFace extends CanvasWatchFaceService {
                     mWatchFaceLayout.setBackgroundColor(getResources().getColor(R.color.black));
                     mDateText.setTextColor(getResources().getColor(R.color.white));
                     mTempHighText.setTextColor(getResources().getColor(R.color.white));
-                    mTempHighText.append(" / ");
                     mTempLowText.setTextColor(getResources().getColor(R.color.white));
                     mWeatherIconView.setVisibility(View.GONE);
 

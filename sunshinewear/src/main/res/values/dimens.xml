@@ -8,6 +8,7 @@
     <dimen name="watchface_frame_padding">5dp</dimen>
     <dimen name="boxinset_layout_padding">15dp</dimen>
     <dimen name="time_text_size">30sp</dimen>
-    <dimen name="temperature_text_size">20sp</dimen>
+    <dimen name="low_temperature_text_size">20sp</dimen>
+    <dimen name="high_temperature_text_size">25sp</dimen>
     <dimen name="weather_detail_margin_top">20dp</dimen>
 </resources>
