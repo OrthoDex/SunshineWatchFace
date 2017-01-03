@@ -27,7 +27,6 @@
                 android:id="@+id/date_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="FRI, JULY 14 2015"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimaryLight"
                 />
@@ -42,14 +41,12 @@
                     android:id="@+id/weather_icon"
                     android:layout_width="@dimen/action_drawer_item_icon_size"
                     android:layout_height="@dimen/action_drawer_item_icon_size"
-                    android:src="@drawable/art_clear"
                     />
                 <TextView
                     android:id="@+id/temp_high_text"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textSize="@dimen/temperature_text_size"
-                    android:text="25'"
                     android:padding="@dimen/watchface_frame_padding"
                     android:textColor="@color/primary_text_dark"/>
                 <TextView
@@ -57,11 +54,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textSize="@dimen/temperature_text_size"
-                    android:text="16'"
                     android:padding="@dimen/watchface_frame_padding"/>
             </LinearLayout>
         </LinearLayout>
         <View
+            android:id="@+id/separator"
             android:layout_width="wrap_content"
             android:layout_height="1dp"
             android:layout_gravity="center_horizontal|center_vertical"

@@ -64,7 +64,6 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
     private boolean mUseTodayLayout;
 
     private Cursor mCursor;
-
     /**
      * Creates a ForecastAdapter.
      *
@@ -257,6 +256,10 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
     void swapCursor(Cursor newCursor) {
         mCursor = newCursor;
         notifyDataSetChanged();
+    }
+
+    public Cursor getCursor() {
+        return mCursor;
     }
 
     /**
